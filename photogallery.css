@@ -1,0 +1,40 @@
+.photogrid {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.grid-column-one {
+    width: 20em;
+    margin-block-start: 2em;
+    margin-block-end: 5em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.grid-column-two {
+    width: 20em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.grid-column-three {
+    width: 20em;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.photos {
+	max-width: 15em;
+	height: auto;
+}
+
+.photogallery-images {
+    margin-block-start: 5em;
+    margin-block-end: 5em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
