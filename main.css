@@ -1,8 +1,36 @@
-.externallinks {
-	margin: 10px;  
-	font-size: 50px;
+html {  
+	background-color: #C2EBCB;
 }
 
-html {  
-	color: #C2EBCB;
+footer {
+	position: fixed;
+	bottom: 1em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+	position: relative;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+p {
+	font-family: 'Nanum Pen Script';
+	font-size: 1em;
+}
+  
+.DS-screen {
+	font-family: 'Nanum Pen Script';
+	border: 2px;
+	border-color: darkslategrey;
+	text-align: center;
+}
+
+.text {
+	font-size: 2em;
 }
