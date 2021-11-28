@@ -1,10 +1,24 @@
 html {  
 	background-color: #C2EBCB;
+	cursor: crosshair;  
+    text-align: center;
 }
 
-footer {
-	position: fixed;
-	bottom: 1em;
+body {
+
+}
+
+section {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+header {
+	font-family: 'Nanum Pen Script';
+	font-size: 4em;
+	font-weight: bold;
+	margin-bottom: 1em;
 }
 
 a {
@@ -14,23 +28,38 @@ a {
 }
 
 a:hover {
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
+    color: #00A0C6; 
+    text-decoration: none; 
+    cursor: crosshair;  
 }
 
 p {
-	font-family: 'Nanum Pen Script';
-	font-size: 1em;
-}
-  
-.DS-screen {
-	font-family: 'Nanum Pen Script';
-	border: 2px;
-	border-color: darkslategrey;
-	text-align: center;
+	font-family: 'Roboto Slab';
+	font-size: 25px;
 }
 
-.text {
-	font-size: 2em;
+.container {
+	display: inline-flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+	width: max-content;
+}
+
+.DS-screen {
+}
+
+.top-spacer {
+	height: 10em;
+	width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        color: gray;
+    }
+	.DS-controls {
+		display: none;
+	}
 }
